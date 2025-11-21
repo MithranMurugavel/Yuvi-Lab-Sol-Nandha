@@ -104,7 +104,7 @@ public class GridGen {
 		        System.out.println("|");
 		        System.out.println(border.toString());
 		    }
-		    System.out.println();
+		   System.out.printf("Number %d appeared %d times in this table \n ",val,count);
 		}
 
 	}
