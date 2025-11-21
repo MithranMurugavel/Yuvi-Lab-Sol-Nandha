@@ -13,7 +13,7 @@ public class GridGen {
 		 for(int i=0;i<n;i++) {
 			 List<Integer> temp = new ArrayList<>();
 			 for(int j=0;j<n;j++) {
-				 int Num = (int)(Math.random() * (20 - 2 + 1)) + 2;
+				int Num = (int)(Math.random() * 10) * 2 + 2;
 				 temp.add(Num);
 			 }
 			 list.add(temp);
